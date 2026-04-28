@@ -72,7 +72,7 @@ Is there a way to bypass and read the `index.php` file? We try submitting PHP co
 <?php echo system('cat index.php') ?>
 ```
 
-After approval, this code will appear in `index.php`. But previous solutions are ineffective. We try entering the collaborator URL to check for DNS traffic:
+After approval, this code will appear in `index.php`. But previous solutions are ineffective. We try entering the collaborator URL to check for DNS traffic and we see some DNS traffic. That mean webserver approve external websites. In there we can input value: http://localhost/index. Webserver will recall itself and include index.php and excuted the php code comment submitted.
 
 ![Checking DNS traffic](image-12.png)
 

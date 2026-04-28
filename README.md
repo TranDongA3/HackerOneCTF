@@ -20,12 +20,13 @@ This repository serves as a personal archive of CTF challenges solved on the [Ha
 
 ## 🏆 Challenges
 
-| Challenge                           | Description                                          | Difficulty |
-| ----------------------------------- | ---------------------------------------------------- | ---------- |
-| **[A-litter](A-litter/)**           | A simple introductory challenge to get started.      | Easy       |
-| **[Micro-CMS v1](Micro-CMS v1/)**   | Web vulnerabilities including XSS and SQL Injection. | Medium     |
-| **[Micro-CMS v2](Micro-CMS v2/)**   | Advanced login bypass and SQL Injection techniques.  | Medium     |
-| **[Photo Gallery](Photo Gallery/)** | SQL Injection and Command Injection exploits.        | Hard       |
+| Challenge                                   | Description                                          | Difficulty |
+| ------------------------------------------- | ---------------------------------------------------- | ---------- |
+| **[A-litter](A-litter/)**                   | A simple introductory challenge to get started.      | Easy       |
+| **[Cody's First Blog](Cody's First Blog/)** | Login bypass, XSS, and LFI to retrieve the flag.     | Medium     |
+| **[Micro-CMS v1](Micro-CMS v1/)**           | Web vulnerabilities including XSS and SQL Injection. | Medium     |
+| **[Micro-CMS v2](Micro-CMS v2/)**           | Advanced login bypass and SQL Injection techniques.  | Medium     |
+| **[Photo Gallery](Photo Gallery/)**         | SQL Injection and Command Injection exploits.        | Hard       |
 
 ## 📁 Repository Structure
 
@@ -33,6 +34,9 @@ This repository serves as a personal archive of CTF challenges solved on the [Ha
 HackerOne-CTF-Writeups/
 ├── A-litter/
 │   ├── A-litter.md
+│   └── images/
+├── Cody's First Blog/
+│   ├── Cody's First Blog.md
 │   └── images/
 ├── Micro-CMS v1/
 │   ├── Micro-CMS v1.md
